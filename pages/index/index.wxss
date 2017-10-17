@@ -56,7 +56,7 @@
 .heroItem .hItem {
   width: 45%;
   height: 180pt;
-  background: red;
+  background: transparent;
   margin: 5pt;
 }
 

@@ -12,9 +12,12 @@
   </view>
   <view id="heroList">
     <scroll-view scroll-y="true" style="height: 1040rpx;" bindscroll="scroll">
-      <view class='heroItem' bind:touchstart="toDetail">
+      <view class='heroItem'>
         <view class='hItem' wx:for="{{herolist}}">
-          <image class='hItemimg' src="{{item.heroimg}}"></image>
+          <image class='hItemimg'
+                 data-item="{{item}}"
+                 bindtap="toDetail"
+                 src="https:{{item.heroimg}}"></image>
         </view>
       </view>
     </scroll-view>

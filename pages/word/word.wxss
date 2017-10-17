@@ -1,1 +1,22 @@
 /**index.wxss**/
+
+.conten {
+  padding: 10px;
+}
+
+.conten .word-item {
+  width: 49%;
+  margin-top: 10px 0;
+}
+
+.conten .word-item:nth-of-type(2n-1) {
+  float: left;
+}
+
+.conten .word-item:nth-of-type(2n) {
+  float: right;
+}
+
+.word-img {
+  width: 100%;
+}

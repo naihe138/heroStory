@@ -1,9 +1,22 @@
-/*
-.cancel {
-  color: white;
-  background: #303F9F;
+.emp {
+  padding: 10px 0;
+  text-align: center;
+  color: #a6acce;
+  font-size: 14px;
+  border-bottom: 1px solid #313948;
 }
-.item {
-  color: black;
-  background: #C5CAE9;
-}*/
+
+.heroDetail {
+  color: #888da7;
+  font-size: 14px;
+  padding: 20px;
+  line-height: 1.8;
+}
+
+.itemimg {
+  width: 100%;
+}
+
+.itemtext {
+  text-indent: 28px;
+}

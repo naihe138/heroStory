@@ -1,7 +1,9 @@
 {
   "pages": [
+    "pages/word/word",
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/heroDetail/heroDetail"
   ],
   "window": {
     "backgroundTextStyle": "light",

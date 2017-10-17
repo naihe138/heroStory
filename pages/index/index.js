@@ -14,26 +14,35 @@ Page({
   fatchData() {
     consle.log('123')
   },
-  onLoad: function () {
+  onLoad() {
     // this.fatchData()
-    this.setData({
-      motto: 123
+    // this.setData({
+    //   motto: 123
+    // })
+  },
+  scroll(e) {
+    // console.log(e)
+  },
+  toDetail(e) {
+    let item = e.target.dataset.item
+    wx.navigateTo({
+      url: '../heroDetail/heroDetail?id=' + item.heroid
     })
-  },
-  scroll: function (e) {
-    console.log(e)
-  },
-  toDetail: function (event) {
-    console.log(event)
   },
   selectAear(e) {
     const index = e.target.dataset.index
     const slectItem = e.target.dataset.item
-
-    let r = allHero.filter(item => item.camptype === slectItem.type)
-    this.setData({
-      navIndex: index,
-      herolist: r
-    })
+    if (slectItem.type === 'all') {
+      this.setData({
+        navIndex: 0,
+        herolist: allHero
+      })
+    } else {
+      let r = allHero.filter(item => item.camptype === slectItem.type)
+      this.setData({
+        navIndex: index,
+        herolist: r
+      })
+    }
   }
 })

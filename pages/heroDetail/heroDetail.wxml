@@ -1,14 +1,17 @@
-<import src="../../../common/head.wxml" />
-<import src="../../../common/foot.wxml" />
-
 <view class="container">
-  <template is="head" data="{{title: 'action-sheet'}}"/>
-
-  <view class="page-body">
-    <view class="btn-area">
-      <button type="default" bindtap="actionSheetTap">弹出action sheet</button>
+  <view class="heroDetailBox">
+    <view class="emp">本故事纯属虚构</view>
+    <view class="heroDetail">
+      <view wx:for="{{hero.heroDetail}}">
+        <view wx:if="{{item.type === 'img'}}">
+          <image class='itemimg'
+                 data-item="{{item}}"
+                 src="{{item.text}}"></image>
+        </view>
+        <view class="itemtext" wx:else>
+          {{item.text}}
+        </view>
+      </view>
     </view>
   </view>
-
-  <template is="foot" />
 </view>

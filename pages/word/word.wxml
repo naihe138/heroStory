@@ -1,4 +1,8 @@
 <!--index.wxml-->
 <view class="container">
-  word
+  <view class="conten">
+    <view class="word-item" wx:for="{{world}}">
+      <image class="word-img" src="{{item.text}}"  />
+    </view>
+  </view>
 </view>

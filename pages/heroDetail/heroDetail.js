@@ -1,10 +1,18 @@
+let heroData = require('../../store/herodetail.js')
+
 Page({
-  actionSheetTap: function () {
-    wx.showActionSheet({
-      itemList: ['item1', 'item2', 'item3', 'item4'],
-      success: function (e) {
-        console.log(e.tapIndex)
-      }
-    })
-  }
+  data: {
+    toView: 'green',
+    hero: heroData
+  },
+  fatchData() {
+    console.log('123')
+  },
+  testImag(str) {
+    consle.log(str)
+    return /https:\/\//.test(str)
+  },
+  onLoad: function (option) {
+    console.log(option)
+  },
 })
