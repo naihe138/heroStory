@@ -1,0 +1,38 @@
+.title {
+  width: 30%;
+}
+
+.scrollBox {
+  position: absolute;
+  bottom: 0;
+  top: 40px;
+}
+
+.time {
+  color: #346e8d;
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.titleimage {
+  width: 100%;
+  height: 40px;
+}
+
+.listItem {
+  position: relative;
+  width: 75%;
+  height: 240px;
+  margin-left: 20%;
+  margin-bottom: 20px;
+}
+
+.itembox {
+  width: 100%;
+  height: 200px;
+}
+
+.itemimg {
+  width: 100%;
+  height: 200px;
+}

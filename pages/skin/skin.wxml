@@ -1,0 +1,16 @@
+<view class="container">
+	<view class="imglist">
+		<view class="item">
+			<image class="itemimg" src="http://ossweb-img.qq.com/upload/webplat/info/yxzj/20171015/649361423293457.jpg" />
+		</view>
+		<view class="item">
+			<image class="itemimg" src="http://ossweb-img.qq.com/upload/webplat/info/yxzj/20171015/649361423293457.jpg" />
+		</view>
+		<view class="item">
+			<image class="itemimg" src="http://ossweb-img.qq.com/upload/webplat/info/yxzj/20171015/649361423293457.jpg" />
+		</view>
+		<view class="item">
+			<image class="itemimg" src="http://ossweb-img.qq.com/upload/webplat/info/yxzj/20171015/649361423293457.jpg" />
+		</view>
+	</view>
+</view>

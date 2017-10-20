@@ -7,19 +7,24 @@ Page({
     motto: 'Hello World'
   },
   //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+  bindViewTap: function () {
+
   },
-  onLoad: function () {
+  onLoad() {
     console.log(123)
   },
-  getUserInfo: function(e) {
-    app.globalData.userInfo = e.detail.userInfo
-    this.setData({
-      userInfo: e.detail.userInfo,
-      hasUserInfo: true
-    })
+  toGo(e) {
+    const str = e.target.dataset.url
+    if (str === '') {
+      wx.showModal({
+        content: "敬请期待",
+        confirmText: "确定",
+        cancelText: "取消"
+      })
+    } else {
+      wx.navigateTo({
+        url: `../${str}/${str}`
+      })
+    }
   }
 })

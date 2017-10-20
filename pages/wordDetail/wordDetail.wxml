@@ -1,0 +1,33 @@
+<view class="container">
+	<view class="title">
+		<image class="titleimage" src="http://game.gtimg.cn/images/yxzj/act/a20161209story/btn-back2.png" />
+	</view>
+	<view class="content">
+		<scroll-view class="scrollBox" scroll-y>
+			<view class="listItem">
+				<view class="time">时间</view>
+				<view class="itembox">
+					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
+				</view>
+			</view>
+			<view class="listItem">
+				<view class="time">时间</view>
+				<view class="itembox">
+					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
+				</view>
+			</view>
+			<view class="listItem">
+				<view class="time">时间</view>
+				<view class="itembox">
+					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
+				</view>
+			</view>
+			<view class="listItem">
+				<view class="time">时间</view>
+				<view class="itembox">
+					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+</view>

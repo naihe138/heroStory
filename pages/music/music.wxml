@@ -1,0 +1,24 @@
+<view class="container">
+	<view style="color:#fff">
+		<view class="hander">
+			<image class="fm" src="https://game.gtimg.cn/images/yxzj/wtc_static_yxzj/images/116-mobileskin-1_7216258.jpg" />
+			<view class="rightBox">
+				<view class="main-title">
+					<view>王者荣耀</view>
+					<view class="time">2015.10.20</view>
+				</view>
+				<view>
+					<image class ="vicon" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/icon-play.png" />
+				</view>
+			</view>
+		</view>
+		<scroll-view scroll-y="true" class="scroll">
+			<view class="">
+				<view class="voiceItem">
+					<view class="voiceText">东皇太一语音1</view>
+					<view class="voiceIcon"></view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+</view>

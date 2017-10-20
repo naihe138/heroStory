@@ -1,9 +1,24 @@
 <!--index.wxml-->
 <view class="container">
-  <view class="userinfo">
-   asd
-  </view>
-  <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+  <view class="conten">
+    <view class="meishu">
+      <image class="meishuimg" src="http://ossweb-img.qq.com/upload/adw/image/1496908595/1496908595.jpg" />
+    </view>
+    <view class="jitem">
+      <view class="item">
+        <image class="itemimg" data-url="skin" bindtap="toGo" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/e1-p.jpg" />
+      </view>
+      <view class="item">
+        <image class="itemimg" data-url=""  bindtap="toGo" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/e2-p.jpg" />
+      </view>
+    </view>
+    <view class="jitem">
+      <view class="item">
+        <image class="itemimg" data-url="voice" bindtap="toGo" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/e3-p.jpg" />
+      </view>
+      <view class="item">
+        <image class="itemimg" data-url="music" bindtap="toGo" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/e4-p.jpg" />
+      </view>
+    </view>
   </view>
 </view>

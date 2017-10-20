@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="page-section-spacing scrollH">
+    <scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+      <view class="scroll-view-item_H" wx:for="{{heroNav}}">
+        <text class="{{index === navIndex ? 'navItem active' : 'navItem'}}" 
+              data-item="{{item}}"
+              data-index="{{index}}"
+              bindtap="selectAear">{{item.text}}</text>
+      </view>
+    </scroll-view>
+  </view>
+	<view class="conten">
+		<view class="hero">
+			<image class="heroImage" src="https://game.gtimg.cn/images/yxzj/wtc_static_yxzj/images/dhty_7707731.jpg" />
+			<view class="cvHero">
+				<view class="heroText">
+					<view class="heroName">动火昂歹意</view>
+					<view class="heroTitle">十米日式</view>
+				</view>
+				<view>
+					<text class="cvName">cv: 沈磊</text>
+				</view>
+			</view>
+		</view>
+		<view>
+			<view class="voiceItem">
+				<view class="voiceText">东皇太一语音1</view>
+				<view class="voiceIcon"></view>
+			</view>
+			<view class="voiceItem">
+				<view class="voiceText">东皇太一语音1</view>
+				<view class="voiceIcon"></view>
+			</view>
+			<view class="voiceItem">
+				<view class="voiceText">东皇太一语音1</view>
+				<view class="voiceIcon"></view>
+			</view>
+		</view>
+	</view>
+	<view>
+		<audio  src="{{src}}" id="myAudio" ></audio>
+	</view>
+</view>

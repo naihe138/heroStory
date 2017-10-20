@@ -1,0 +1,62 @@
+.hander {
+  height: 120px;
+  position: relative;
+}
+
+.fm {
+  height: 120px;
+  width: 70%;
+}
+
+.rightBox {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 120px;
+  background: linear-gradient(to left, #12202c 0%, #12202c 60%, transparent);
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.vicon {
+  height: 50px;
+  width: 50px;
+}
+
+.main-title {
+  padding-left: 40px;
+  padding-right: 30px;
+}
+
+.time {
+  font-size: 12px;
+  color: #455f7f;
+}
+
+.voiceItem {
+  color: #b5d3f2;
+  padding: 0 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #1d3143;
+  height: 38px;
+  line-height: 38px;
+  position: relative;
+}
+
+.voiceIcon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: url(https://game.gtimg.cn/images/yxzj/act/a20161209story/icon-play.png) no-repeat center center;
+  background-size: contain;
+  right: 20px;
+  top: 7px;
+}
+
+.scroll {
+  position: absolute;
+  top: 120px;
+  bottom: 0;
+  left: 0;
+}

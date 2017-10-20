@@ -1,0 +1,22 @@
+.imglist {
+  clear: both;
+  padding: 10px;
+}
+
+.imglist .item {
+  width: 48%;
+  margin: 5px 0;
+}
+
+.imglist .item:nth-of-type(2n-1) {
+  float: left;
+}
+
+.imglist .item:nth-of-type(2n) {
+  float: right;
+}
+
+.itemimg {
+  width: 100%;
+  height: 90px;
+}

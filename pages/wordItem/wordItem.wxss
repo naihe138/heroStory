@@ -1,0 +1,68 @@
+.scroll-view_H {
+  color: #FFF;
+  height: 60px;
+  white-space: nowrap;
+  display: flex;
+  border-bottom: 1px solid #103c51
+}
+
+.navitem {
+  display: inline-block;
+  width: 128px;
+  height: 59px;
+  color: #879fab;
+  font-size: 14px;
+}
+
+.sub {
+  border-left: 1px solid #103c51;
+  border-right: 1px solid #103c51;
+  border-bottom: 1px solid #103c51;
+  margin: 0 2px;
+}
+
+.mainimg {
+  width: 128px;
+  height: 60px;
+}
+
+.part {
+  width: 128px;
+  height: 29px;
+  text-indent: 20px;
+  line-height: 29px;
+}
+
+.parttitle {
+  width: 128px;
+  height: 30px;
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+.content {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  color: #abc2de;
+  font-size: 14px;
+  text-indent: 28px;
+  padding: 20px;
+  background: url(https://game.gtimg.cn/images/yxzj/act/a20160510story/detail_por_bg5.jpg) no-repeat 50% 0;
+}
+
+.ctitle {
+  font-size: 24px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.ctime {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.citem {
+  padding-top: 20px;
+}
