@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/heroDetail/heroDetail",
     "pages/appreciation/appreciation",
     "pages/word/word",
     "pages/index/index",
     "pages/logs/logs",
-    "pages/heroDetail/heroDetail",
     "pages/wordDetail/wordDetail",
     "pages/wordItem/wordItem",
     "pages/skin/skin",

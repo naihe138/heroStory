@@ -1,9 +1,26 @@
 .emp {
-  padding: 10px 0;
-  text-align: center;
   color: #a6acce;
   font-size: 14px;
   border-bottom: 1px solid #313948;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.history {}
+
+.historyimag {
+  width: 120px;
+  height: 30px;
+}
+
+.heroName {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  color: #a6acce;
 }
 
 .heroDetail {
