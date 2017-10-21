@@ -1,6 +1,5 @@
 {
   "pages": [
-    "pages/voice/voice",
     "pages/index/index",
     "pages/word/word",
     "pages/appreciation/appreciation",
@@ -8,8 +7,9 @@
     "pages/heroDetail/heroDetail",
     "pages/wordDetail/wordDetail",
     "pages/wordItem/wordItem",
+    "pages/music/music",
     "pages/skin/skin",
-    "pages/music/music"
+    "pages/voice/voice"
   ],
   "window": {
     "backgroundTextStyle": "light",

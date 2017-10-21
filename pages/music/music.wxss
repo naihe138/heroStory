@@ -42,6 +42,7 @@
   height: 38px;
   line-height: 38px;
   position: relative;
+  overflow: hidden
 }
 
 .voiceIcon {
@@ -59,4 +60,8 @@
   top: 120px;
   bottom: 0;
   left: 0;
+}
+
+.mtext {
+  padding-left: 20px;
 }

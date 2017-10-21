@@ -10,5 +10,5 @@ export default {
   skin: base + '/skin',
   voiceNav: base + '/voiceNav',
   voiceDetail: base + '/voiceDetail',
-  music: base + 'music'
+  music: base + '/music'
 }

@@ -1,24 +1,34 @@
 <view class="container">
 	<view style="color:#fff">
 		<view class="hander">
-			<image class="fm" src="https://game.gtimg.cn/images/yxzj/wtc_static_yxzj/images/116-mobileskin-1_7216258.jpg" />
+			<image class="fm" src="{{music.zjtp_35}}" />
 			<view class="rightBox">
 				<view class="main-title">
 					<view>王者荣耀</view>
-					<view class="time">2015.10.20</view>
+					<view class="time">{{music.zjrq_97}}</view>
 				</view>
 				<view>
-					<image class ="vicon" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/icon-play.png" />
+					<image class ="vicon" bindtap="playMain" src="https://game.gtimg.cn/images/yxzj/act/a20161209story/icon-play.png" />
 				</view>
 			</view>
 		</view>
 		<scroll-view scroll-y="true" class="scroll">
 			<view class="">
-				<view class="voiceItem">
-					<view class="voiceText">东皇太一语音1</view>
-					<view class="voiceIcon"></view>
+				<view class="voiceItem" wx:for="{{music.yllb_38}}">
+					<view class="voiceText">
+						<text data-url="{{item.gq_db}}" bindtap="play">{{item.gqmc_45}}</text>
+						<text class="mtext" data-url="{{item.gq_db}}" bindtap="play">{{item.gqsc_14}}</text>
+					</view>
+					<view class="voiceIcon" data-url="{{item.gq_db}}" bindtap="play"></view>
 				</view>
 			</view>
 		</scroll-view>
+	</view>
+	<view>
+		<audio poster="{{poster}}" 
+		name="{{name}}" 
+		author="{{author}}" 
+		src="{{src}}" 
+		id="myAudio"></audio>
 	</view>
 </view>

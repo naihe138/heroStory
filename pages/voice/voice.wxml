@@ -29,13 +29,17 @@
 			</view>
 			<view>
 				<view class="voiceItem" wx:for="{{main.yylb1_c8}}" wx:for-item="sub" wx:for-index="j" wx:key="{{j}}">
-					<view class="voiceText">{{sub.yywa1_f2}}</view>
-					<view class="voiceIcon"></view>
+					<view class="voiceText" data-url="{{sub.yyyp1_1f}}" bindtap="play">{{sub.yywa1_f2}}</view>
+					<view class="voiceIcon" data-url="{{sub.yyyp1_1f}}" bindtap="play"></view>
 				</view>
 			</view>
 		</view>
-		<view>
-			<audio  src="{{src}}" id="myAudio" ></audio>
-		</view>
+	</view>
+	<view>
+		<audio poster="{{poster}}" 
+		name="{{name}}" 
+		author="{{author}}" 
+		src="{{src}}" 
+		id="myAudio"></audio>
 	</view>
 </view>
