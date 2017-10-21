@@ -45,6 +45,7 @@
 
 .conten {
   position: relative;
+  margin-bottom: 20px;
 }
 
 .hero {
@@ -109,4 +110,11 @@
   background-size: contain;
   right: 20px;
   top: 7px;
+}
+
+.nodeData {
+  text-align: center;
+  color: #cccccc;
+  padding-top: 100px;
+  font-size: 14px;
 }

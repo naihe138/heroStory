@@ -1,7 +1,7 @@
 <!--index.wxml-->
 <view class="container">
   <view class="conten">
-    <view class="word-item" wx:for="{{world}}">
+    <view class="word-item" wx:for="{{world}}" wx:key="{{index}}">
       <image class="word-img" src="{{item.text}}" data-to="{{item.disable}}" bindtap="toWord" />
     </view>
   </view>

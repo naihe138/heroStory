@@ -3,40 +3,23 @@
 		<scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
 			<view style="display:flex">
 				<view class="navitem main">
-					<image class="mainimg" src="{{navTitle}}" />
+					<image class="mainimg" src="{{navTitle}}" bindtap="tapMain" />
 				</view>
-				<view class="navitem sub">
-					<view class="part">part 1</view>
-					<view class="parttitle">住过病例</view>
-				</view>
-				<view class="navitem sub">
-					<view class="part">part 1</view>
-					<view class="parttitle">住过病例</view>
-				</view>
-				<view class="navitem sub">
-					<view class="part">part 1</view>
-					<view class="parttitle">住过病例</view>
-				</view>
-				<view class="navitem sub">
-					<view class="part">part 1</view>
-					<view class="parttitle">住过病例</view>
+				<view class="navitem sub" wx:for="{{subNav}}" wx:key="{{index}}">
+					<view class="{{index === navIndex ? 'active' : ''}}">
+						<view class="part"  data-index="{{index}}" bindtap="tapSub">part {{index + 1}}</view>
+						<view class="parttitle" data-index="{{index}}" bindtap="tapSub">{{item.title}}</view>
+					</view>
 				</view>
 			</view>
 		</scroll-view>
 	</view>
 	<view class="content">
-		<view class="ctitle">王者时代：1123</view>
-		<view class="ctime">时间</view>
+		<view class="ctitle">{{constent.title}}</view>
+		<view class="ctime" wx:if="{{constent.time}}">{{constent.time}}</view>
 		<view class="ccon">
-			<view class="citem">
-				经过数百年的休养生息，王者大陆从几乎招致毁灭的战争中重新发展起来。稷下学院传承了机关术与魔道，小心将其控制在有益的范围内。
-			</view>
-			<view  class="citem">
-				经过数百年的休养生息，王者大陆从几乎招致毁灭的战争中重新发展起来。稷下学院传承了机关术与魔道，小心将其控制在有益的范围内。
-			</view>
-			<view  class="citem">
-				经过数百年的休养生息，王者大陆从几乎招致毁灭的战争中重新发展起来。稷下学院传承了机关术与魔道，小心将其控制在有益的范围内。
-			</view>
+			<view class="citem" wx:for="{{constent.textContent}}" wx:key="{{index}}">{{item}}</view>
 		</view>
+		<view style="height: 10px;"></view>
 	</view>
 </view>

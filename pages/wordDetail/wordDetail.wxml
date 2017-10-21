@@ -4,28 +4,10 @@
 	</view>
 	<view class="content">
 		<scroll-view class="scrollBox" scroll-y>
-			<view class="listItem">
-				<view class="time">时间</view>
+			<view class="listItem" wx:for="{{world}}" wx:key="{{index}}">
+				<view class="time">{{item.time}}</view>
 				<view class="itembox">
-					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
-				</view>
-			</view>
-			<view class="listItem">
-				<view class="time">时间</view>
-				<view class="itembox">
-					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
-				</view>
-			</view>
-			<view class="listItem">
-				<view class="time">时间</view>
-				<view class="itembox">
-					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
-				</view>
-			</view>
-			<view class="listItem">
-				<view class="time">时间</view>
-				<view class="itembox">
-					<image class="itemimg" src="http://game.gtimg.cn/images/yxzj/act/a20160510story/idx_pic1.jpg" />
+					<image class="itemimg" data-id="{{item.id}}" src="https:{{item.img}}" bindtap="toWord" />
 				</view>
 			</view>
 		</scroll-view>

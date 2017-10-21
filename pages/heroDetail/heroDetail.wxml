@@ -3,12 +3,14 @@
     <view class="emp">
       <view class="emp-title">本故事纯属虚构</view>
       <view class="history">
-        <image class="historyimag" bindtap="showHistory" src="https://game.gtimg.cn/images/yxzj/act/a20170405stroyhero/storyimg5.jpg" />
+        <image class="historyimag" bindtap="showHistory" 
+               wx:if="{{hero.historyTitle}}"
+               src="https://game.gtimg.cn/images/yxzj/act/a20170405stroyhero/storyimg5.jpg" />
       </view>
     </view>
     <view class="heroDetail">
-      <view class="heroName">东皇太一</view>
-      <view wx:for="{{hero.heroDetail}}">
+      <view class="heroName" wx:if="{{hero.heroName}}">{{hero.heroName}}</view>
+      <view wx:for="{{hero.heroDetail}}" wx:key="{{index}}">
         <view wx:if="{{item.type === 'img'}}">
           <image class='itemimg'
                  data-item="{{item}}"

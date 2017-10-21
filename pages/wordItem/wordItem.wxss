@@ -21,6 +21,11 @@
   margin: 0 2px;
 }
 
+.active {
+  background: url('http://game.gtimg.cn/images/yxzj/act/a20160510story/hig_por_btn.jpg') no-repeat center center;
+  background-size: 100% 100%;
+}
+
 .mainimg {
   width: 128px;
   height: 60px;

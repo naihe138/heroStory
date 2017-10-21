@@ -1,14 +1,14 @@
 {
   "pages": [
-    "pages/heroDetail/heroDetail",
-    "pages/appreciation/appreciation",
-    "pages/word/word",
+    "pages/voice/voice",
     "pages/index/index",
+    "pages/word/word",
+    "pages/appreciation/appreciation",
     "pages/logs/logs",
+    "pages/heroDetail/heroDetail",
     "pages/wordDetail/wordDetail",
     "pages/wordItem/wordItem",
     "pages/skin/skin",
-    "pages/voice/voice",
     "pages/music/music"
   ],
   "window": {
