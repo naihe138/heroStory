@@ -18,26 +18,26 @@
     "navigationBarTextStyle": "#fff"
   },
   "tabBar": {
-    "color": "#fff",
-    "selectedColor": "#3cc51f",
+    "color": "#00baff",
+    "selectedColor": "#fff",
     "borderStyle": "black",
     "backgroundColor": "#1d3549",
     "list": [{
         "pagePath": "pages/index/index",
-        "iconPath": "image/icon_component.png",
-        "selectedIconPath": "image/icon_component_HL.png",
+        "iconPath": "image/story-active.png",
+        "selectedIconPath": "image/story.png",
         "text": "故事"
       },
       {
         "pagePath": "pages/word/word",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/word-active.png",
+        "selectedIconPath": "image/word.png",
         "text": "世界"
       },
       {
         "pagePath": "pages/appreciation/appreciation",
-        "iconPath": "image/icon_API.png",
-        "selectedIconPath": "image/icon_API_HL.png",
+        "iconPath": "image/apprecation-active.png",
+        "selectedIconPath": "image/apprecation.png",
         "text": "鉴赏"
       }
     ]

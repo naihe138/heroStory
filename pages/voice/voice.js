@@ -25,7 +25,7 @@ Page({
           _this.setData({
             heroNav: r.dhty_e9
           })
-          let id = r.dhty_e9[3].yxid_a7
+          let id = r.dhty_e9[0].yxid_a7
           _this.fatchDetail(id)
         }
       }
