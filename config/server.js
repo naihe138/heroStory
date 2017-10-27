@@ -1,5 +1,5 @@
 // 服务接口地址
-const base = 'https://naihex.s1.natapp.cc/api'
+const base = 'https://story.naice.me/api'
 
 export default {
   heroList: base + '/hero',
