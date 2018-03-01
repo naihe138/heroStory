@@ -226,7 +226,7 @@ Page({
   [4]: https://user-gold-cdn.xitu.io/2017/10/27/f1a7815f16c7faaf18eea8a4bae41e25
   [5]: https://user-gold-cdn.xitu.io/2017/10/27/1ae9f01dde00b271ba5245d965d257d8
   [6]: https://user-gold-cdn.xitu.io/2017/10/27/7e6ab1cd8a66fc5e495e32820c4ed0e6
-  [7]: https://storyweb.naice.me/
+  [7]: http://storyweb.naice.me/
   [8]: https://zh.nuxtjs.org/guide/configuration
   [9]: https://zhuanlan.zhihu.com/p/25105936?utm_medium=social&utm_source=weibo
   [10]: https://mp.weixin.qq.com/debug/wxadoc/dev/demo.html
